@@ -1,0 +1,55 @@
+---
+title: "Test Post With Code in R and Python"
+author: "el"
+date: "2023-10-08"
+categories: [test]
+image: "image.jpg"
+---
+
+This is a post with executable code.
+
+```{r}
+library(tidyverse)
+
+height <- c(1.50, 1.55, 1.63, 1.68)
+age <- c(12, 15, 20, 40)
+
+df <- data.frame(height, age)
+
+df %>% 
+  ggplot(aes(x = age, y = height)) +
+  geom_point() +
+  theme_bw()
+
+
+```
+
+```{python}
+import numpy as np
+import seaborn as sns
+import pandas as pd
+import matplotlib.pyplot as plt
+
+height = [1.50, 1.55, 1.63, 1.68]
+age = [12, 15, 20, 40]
+
+d = {
+  'height': height,
+  'age': age
+}
+
+df = pd.DataFrame(d)
+
+sns \
+.scatterplot(
+  data = d,
+  x = 'age',
+  y = 'height'
+)
+
+plt.show()
+
+
+```
+
+In my case, I learnt R before learning Python. There isn't really a better or worse language. I learnt R and it was addictive.. I made a job-switch and colleagues are coding in Python, hence I need to be fluent enough in it...

@@ -1,0 +1,12 @@
+---
+title: "Welcome To My Blog"
+author: "el"
+date: "2023-10-08"
+categories: [news]
+---
+
+This is the first post in a new Quarto blog.
+
+This is a new place to record down the learnings of a food chemist learning how to code.
+
+Old blog: <https://lruolin.github.io/myBlog/>

@@ -1,0 +1,15 @@
+---
+title: "About"
+image: profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/e-l-a999b317b
+    - icon: github
+      text: Github
+      href: https://github.com/lruolin
+---
+
+Chemist who is learning how to code
